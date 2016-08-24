@@ -1,7 +1,7 @@
 body {
 	font-weight: 24px;
 	font-size: small;
-	background: url("images/CuCat.png");
+	background: url("CuCat.png");
 	/*border: 1px solid gray;*/
 	background-repeat: no-repeat;
 	background-position: right bottom;
@@ -34,7 +34,7 @@ header {
 }
 ul {
 	list-style-type: disc;
-	list-style-image: url("images/aserisk.gif");
+	list-style-image: url("aserisk.gif");
 	
 }
 
