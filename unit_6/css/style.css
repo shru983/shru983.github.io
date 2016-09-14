@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Slackey);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Cherry+Cream+Soda);
+@import url(https://fonts.googleapis.com/css?family=Baloo+Tamma);
+
+h1 {
+	font-family: 'Slackey', cursive;
+	text-align: center;
+	color: black;
+	font-size: 55px;
+}
+
+nav {
+  background-color: #aaaaaa;
+  font-family: 'Baloo Tamma', cursive;
+}
+
+nav a {
+  background-color: #ff7900;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 10px;
+  width: 200px;
+}
+
+a:hover {
+  background-color: #aaaaaa;
+  color: #173ABD;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear:both;
+	height: 0;
+	font-size: 0;
+}
+
+h2{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3em;
+	text-align: center;
+}
+
+p,h3,ul{
+	font-family: 'Cherry Cream Soda', serif;
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+} 
+
+#hero{
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+
+section{
+	overflow: auto;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-image: url("aserisk.gif");
+	
+}
+
+li{
+	font-size: .5em;
+	width: 50%;
+	text-align: left;
+	color: black;
+}
+
+div{
+	font-size: 1.2em;
+	width: 42%;
+	padding: 4%;
+	display: inline-block;
+}
+
+#leftblk{
+	float: left;
+}
+
+#rightblk{
+	float: right;
+}
+footer{
+	clear: both;
+}
